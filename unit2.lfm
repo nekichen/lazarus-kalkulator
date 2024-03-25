@@ -1,0 +1,186 @@
+object Form1: TForm1
+  Left = 123
+  Height = 538
+  Top = 113
+  Width = 469
+  Caption = 'Form1'
+  ClientHeight = 538
+  ClientWidth = 469
+  LCLVersion = '3.2.0.0'
+  object Button1: TButton
+    Left = 48
+    Height = 52
+    Top = 168
+    Width = 56
+    Caption = '7'
+    TabOrder = 0
+    OnClick = ButtonClick
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 52
+    Top = 168
+    Width = 56
+    Caption = '8'
+    TabOrder = 1
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    Left = 176
+    Height = 52
+    Top = 168
+    Width = 56
+    Caption = '9'
+    TabOrder = 2
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    Left = 48
+    Height = 52
+    Top = 232
+    Width = 56
+    Caption = '4'
+    TabOrder = 3
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    Left = 112
+    Height = 52
+    Top = 232
+    Width = 56
+    Caption = '5'
+    TabOrder = 4
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    Left = 176
+    Height = 52
+    Top = 232
+    Width = 56
+    Caption = '6'
+    TabOrder = 5
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    Left = 48
+    Height = 52
+    Top = 296
+    Width = 56
+    Caption = '1'
+    TabOrder = 6
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    Left = 112
+    Height = 52
+    Top = 296
+    Width = 56
+    Caption = '2'
+    TabOrder = 7
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    Left = 176
+    Height = 52
+    Top = 296
+    Width = 56
+    Caption = '3'
+    TabOrder = 8
+    OnClick = ButtonClick
+  end
+  object Button10: TButton
+    Left = 48
+    Height = 52
+    Top = 360
+    Width = 120
+    Caption = '0'
+    TabOrder = 9
+    OnClick = ButtonClick
+  end
+  object Button11: TButton
+    Left = 176
+    Height = 52
+    Top = 360
+    Width = 56
+    Caption = ','
+    TabOrder = 10
+    OnClick = ButtonClick
+  end
+  object Edit1: TEdit
+    Left = 48
+    Height = 66
+    Top = 76
+    Width = 392
+    Alignment = taRightJustify
+    AutoSize = False
+    Font.Height = -30
+    ParentFont = False
+    TabOrder = 11
+    Text = '0'
+  end
+  object Tambah: TButton
+    Left = 240
+    Height = 52
+    Top = 168
+    Width = 56
+    Caption = '+'
+    TabOrder = 12
+    OnClick = TambahClick
+  end
+  object Kurang: TButton
+    Left = 240
+    Height = 52
+    Top = 232
+    Width = 56
+    Caption = '-'
+    TabOrder = 13
+    OnClick = KurangClick
+  end
+  object Kali: TButton
+    Left = 304
+    Height = 52
+    Top = 168
+    Width = 56
+    Caption = 'x'
+    TabOrder = 14
+    OnClick = KaliClick
+  end
+  object Bagi: TButton
+    Left = 304
+    Height = 52
+    Top = 232
+    Width = 56
+    Caption = ':'
+    TabOrder = 15
+    OnClick = BagiClick
+  end
+  object SamaDengan: TButton
+    Left = 240
+    Height = 116
+    Top = 296
+    Width = 120
+    Caption = '='
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 16
+    OnClick = SamaDenganClick
+  end
+  object AllClear: TButton
+    Left = 368
+    Height = 52
+    Top = 168
+    Width = 75
+    Caption = 'AC'
+    TabOrder = 17
+    OnClick = AllClearClick
+  end
+  object Clear: TButton
+    Left = 368
+    Height = 52
+    Top = 232
+    Width = 75
+    Caption = 'C'
+    TabOrder = 18
+    OnClick = ClearClick
+  end
+end
